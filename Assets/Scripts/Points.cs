@@ -2,10 +2,14 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
+using UnityEngine.UI;
 public class Points : MonoBehaviour
 {
     public GameObject cube;
+   
     void Start()
     {
         
@@ -21,7 +25,11 @@ public class Points : MonoBehaviour
     {
         if (collision.gameObject.tag == "Trou")
         {
-            cube.SetActive(true);
+            cube.SetActive(false);
+        }
+        if (collision.gameObject.tag == "bout")
+        {
+            
         }
     }
 }

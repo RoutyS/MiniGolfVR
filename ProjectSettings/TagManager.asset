@@ -8,6 +8,7 @@ TagManager:
   - Trail
   - Trou
   - balle
+  - bout
   layers:
   - Default
   - TransparentFX
