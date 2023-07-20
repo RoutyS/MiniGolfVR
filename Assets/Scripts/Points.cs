@@ -9,10 +9,11 @@ using UnityEngine.UI;
 public class Points : MonoBehaviour
 {
     public GameObject cube;
-   
+    public Text txt;
+    public int score = 0;
     void Start()
     {
-        
+        txt.text = score.ToString(); 
     }
 
    
@@ -26,10 +27,12 @@ public class Points : MonoBehaviour
         if (collision.gameObject.tag == "Trou")
         {
             cube.SetActive(false);
+           
         }
         if (collision.gameObject.tag == "bout")
         {
-            
+            score++;
+            txt.text = score.ToString();
         }
     }
 }
