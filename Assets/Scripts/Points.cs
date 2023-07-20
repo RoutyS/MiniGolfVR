@@ -35,6 +35,7 @@ public class Points : MonoBehaviour
             cube.SetActive(false);
             score=0;
             txt.text = score.ToString();
+            GameManager.Instance.AddScore(score);
            
         }
         if (collision.gameObject.tag == "bout")
