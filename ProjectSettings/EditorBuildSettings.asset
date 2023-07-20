@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MiniGolf.unity
     guid: 7ed793f51d8eec24ca79a42adb017710
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 841e458a4c418664d96de11825bc0367
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
       type: 2}
