@@ -34,6 +34,7 @@ Library: C:\Users\axelo\Desktop\MiniGolfVR\Temp\BurstOutput\tempburstlibs\armeab
 --assembly-defines=UnityEngine;
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\axelo\Desktop\MiniGolfVR\Temp\Burst
+--debug=Full
 --key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\Users\axelo\Desktop\MiniGolfVR\Library\Burst
 --output=C:\Users\axelo\Desktop\MiniGolfVR\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burst_generated
@@ -110,6 +111,7 @@ Library: C:\Users\axelo\Desktop\MiniGolfVR\Temp\BurstOutput\tempburstlibs\armeab
 --assembly-defines=UnityEngine;
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\axelo\Desktop\MiniGolfVR\Temp\Burst
+--debug=Full
 --key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\Users\axelo\Desktop\MiniGolfVR\Library\Burst
 --output=C:\Users\axelo\Desktop\MiniGolfVR\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burst_generated

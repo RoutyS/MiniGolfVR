@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
     private int ScoreFinale= 0; 
-
+    public TextMeshProUGUI txt;
     void Awake()
     {
         // Vérifier s'il y a déjà une instance de GameManager.
@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour
     public void AddScore(int score)
     {
         ScoreFinale += score;
+        txt.text = ScoreFinale.ToString();
     }
 
   
